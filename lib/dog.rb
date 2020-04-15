@@ -9,15 +9,15 @@ class Dog
     save
   end
   
-  def self all
+  def self.all
     @@all
   end
   
-  def self clear_all
+  def self.clear_all
     @@all = []
   end
   
-  def self print_all
+  def self.print_all
     @@all
   end
   
